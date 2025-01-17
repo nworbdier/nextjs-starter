@@ -26,7 +26,7 @@ const RegisterPage = () => {
         // Wait a brief moment for auth state to fully propagate
         setTimeout(() => {
           router.refresh();
-          router.push("/projections");
+          router.push("/");
         }, 500);
       }
       unsubscribe();
