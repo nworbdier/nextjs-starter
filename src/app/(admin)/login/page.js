@@ -8,7 +8,7 @@ import {
   signInWithPopup,
   onAuthStateChanged,
 } from "firebase/auth";
-import { LoginForm } from "@/components/login-form";
+import LoginForm from "@/components/login-form";
 import { useAuth } from "@/utils/authContext";
 import { useToast } from "@/hooks/use-toast";
 

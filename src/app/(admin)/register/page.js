@@ -9,7 +9,7 @@ import {
   signInWithPopup,
   onAuthStateChanged,
 } from "firebase/auth";
-import { RegisterForm } from "@/components/register-form";
+import LoginForm from "@/components/register-form";
 import { useToast } from "@/hooks/use-toast";
 
 const RegisterPage = () => {
