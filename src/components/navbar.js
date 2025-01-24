@@ -13,7 +13,7 @@ export function Navbar() {
       <div className="container mx-auto h-16 flex items-center justify-between px-4 sm:px-6 lg:px-8">
         <div className="flex items-center space-x-8">
           <Link href="/projections" className="text-xl font-bold">
-            RWB BETS
+            AMCE
           </Link>
         </div>
         <div className="flex items-center space-x-4">

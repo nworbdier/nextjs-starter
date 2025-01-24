@@ -11,9 +11,9 @@ export function Footer() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <div className="flex justify-between">
           <div className="max-w-xs">
-            <h3 className="font-semibold mb-3">RWB BETS</h3>
+            <h3 className="font-semibold mb-3">AMCE</h3>
             <p className="text-sm text-muted-foreground mr-5">
-              Your trusted platform for sports betting projections and analysis.
+              Software company powering the world.
             </p>
           </div>
           {user && (
@@ -40,7 +40,7 @@ export function Footer() {
       </div>
       <div className="border-t">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-8 text-center text-sm text-muted-foreground">
-          <h1 className="text-sm text-center">© 2025 RWB BETS</h1>
+          <h1 className="text-sm text-center">© AMCE</h1>
           <h1 className="text-sm text-center mt-2">All rights reserved</h1>
         </div>
       </div>

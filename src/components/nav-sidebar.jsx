@@ -12,7 +12,7 @@ import {
   SheetClose,
 } from "@/components/ui/sheet";
 import { Button } from "@/components/ui/button";
-import { BarChart2, Menu, Settings } from "lucide-react";
+import { Menu } from "lucide-react";
 
 export function NavSidebar() {
   const router = useRouter();
@@ -26,18 +26,7 @@ export function NavSidebar() {
     }
   };
 
-  const menuItems = [
-    {
-      label: "Projections",
-      icon: <BarChart2 className="h-5 w-5" />,
-      onClick: () => router.push("/projections"),
-    },
-    {
-      label: "Settings",
-      icon: <Settings className="h-5 w-5" />,
-      onClick: () => router.push("/settings"),
-    },
-  ];
+  const menuItems = [];
 
   return (
     <Sheet>
